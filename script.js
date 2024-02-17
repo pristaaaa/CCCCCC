@@ -3,5 +3,5 @@ jwplayer("video").setup({
   height: "100%",
   autostart: true,
   mute: false,
-  file: "https://prod-sports-hin-fa.jiocinema.com/bpk-tv/Colors_Cineplex_voot_MOB/Fallback/Colors_Cineplex_voot_MOB.m3u8"
+  file: "https://dai.google.com/ssai/event/W499Tna_T1y9td-jD7bw_w/master.m3u8"
 });
