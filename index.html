@@ -9,6 +9,8 @@
 <body bgcolor="black" style="margin:0">
     <script> // script.js
 
+// script.js
+
 document.addEventListener('DOMContentLoaded', function () {
   const shakaPlayerContainer = document.createElement('div');
   shakaPlayerContainer.setAttribute('data-shaka-player-container', '');
@@ -17,15 +19,6 @@ document.addEventListener('DOMContentLoaded', function () {
   shakaPlayerContainer.style.cursor = 'none';
   shakaPlayerContainer.className = 'shaka-mobile shaka-video-container';
   shakaPlayerContainer.setAttribute('shaka-controls', 'true');
-
-  const logoButton = document.createElement('button');
-  logoButton.onclick = redirectToTelegram;
-
-  const logoImage = document.createElement('img');
-  logoImage.src = 'your-logo-image-url';
-  logoImage.alt = 'Logo';
-  logoImage.style.width = '50px';
-  logoImage.style.height = '50px';
 
   const shakaVideo = document.createElement('video');
   shakaVideo.poster = 'https://linear-poster.astro.com.my/prod/poster/ivp_default_10000229_IVP_LAND_586x330.jpg';
@@ -36,8 +29,6 @@ document.addEventListener('DOMContentLoaded', function () {
   shakaVideo.style.height = '100%';
   shakaVideo.className = 'shaka-video';
 
-  logoButton.appendChild(logoImage);
-  shakaPlayerContainer.appendChild(logoButton);
   shakaPlayerContainer.appendChild(shakaVideo);
 
   const centerElement = document.createElement('center');
@@ -45,10 +36,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
   document.body.appendChild(centerElement);
 
-  // Function to redirect to Telegram channel
-  function redirectToTelegram() {
-    window.location.href = 'https://t.me/+vi_UBdhOsN5jYzY1';
-  }
+  // Continue with the rest of your script content...
+
+  // Function to initialize Shaka Player
+  
 
   // Continue with the rest of your script content...
 });
